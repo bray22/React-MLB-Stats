@@ -1,0 +1,120 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  margin: 10px 0 10px 10px;
+  font-size: 18px;
+  flex: 1;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.american-league h3 {
+  color: #ee0a46;
+}
+
+.national-league h3 {
+  color: #0e4082;
+}
+
+h4 {
+  font-size: 13px;
+  font-style: italic;
+  margin: 10px 0 5px;
+}
+
+.team-name {
+  font-size: 13px;
+  padding: 3px 0 3px 0;
+}
+
+.players-modal {
+  display: none;
+}
+.players-modal.visible {
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  display: inline-block;
+  position: absolute;
+  overflow-y: scroll;
+  left: 0;
+  right: 0;
+  top: 100px;
+
+  border: 1px solid;
+  background: white;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  background: #efefef;
+}
+
+.player {
+  display: flex;
+  padding: 2px 0 2px 8px;
+  border-bottom: 1px solid silver;
+  font-size: 12px;
+}
+
+.close-button {
+  text-align: right;
+  padding: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.player.header {
+  background: #ddd;
+}
+
+.jersey-number {
+  flex: 0 35px;
+}
+
+.position {
+  flex: 0 100px;
+}
+
+.full-name {
+  flex: 1;
+}
+
+.height {
+  flex: 0 60px;
+}
+
+.current-age {
+  flex: 0 60px;
+}
+
+.weight {
+  flex: 0 60px;
+}
+
+.teams-table {
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.teams-table div {
+  flex: 1;
+}
+
+.teams-table .american-league {
+  margin-right: 30px;
+}
